@@ -1,15 +1,23 @@
 # orca
 
+Group
+
+```json
+{
+    "group_id": 1,
+    "members": [1, 2]
+}
+```
+
 Message
 
-```
+```json
 {
-    "from": "+1A",
-    "to": ["+1A", "+1B", ...],
+    "group_id": 1,
+    "from": 1,
     "type": "message",
     "content": {
         "text": "hello",
-        ...
     }
 }
 ```
