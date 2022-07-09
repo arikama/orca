@@ -5,7 +5,8 @@ Group
 ```json
 {
     "group_id": 1,
-    "members": [1, 2]
+    "members": [1, 2],
+    "fixed": true,
 }
 ```
 
